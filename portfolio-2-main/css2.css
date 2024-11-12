@@ -1,0 +1,160 @@
+@font-face { font-family: ovo2; 
+  src: url('orange.ttf'); }
+  @font-face { font-family: ovo3; 
+    src: url('cat.ttf'); }
+
+
+body{
+  background-image: url(./imagens/fundoo.jpg);
+  background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.6s;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #fff;
+    background-color: #5f5f5f66;
+    font-family: ovo3;
+    text-size-adjust: 50%;
+  }
+  
+  button:hover {
+    color: white;
+    box-shadow: inset 0 -130px 0 0 #45c245;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: #333333d6;
+    border-radius: 15px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 1rem;
+  }
+
+  .natureza{
+    background: url(./imagens/atomo.png)no-repeat;
+    background-color: #5f5f5f66;
+    background-size: 80px;
+    width: 120px;
+    padding: 0;
+    padding-top: 100px;
+    font-size: 20px;
+    text-align: center;
+    background-position: center 15px;
+    transition: ease-out 0.4s;
+    font-family: ovo2;
+  }
+
+  .natureza:hover{
+    color: white;
+    box-shadow: inset 0 -160px 0 0 #79f179;
+  }
+
+  body, html, .botaovo{
+    height: 90%;
+  }
+
+  .botaovo{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .botaovo *{
+    width: 160px;
+    height: 160px;
+  }
+
+  .matematica{
+    background: url(./imagens/matematica.png)no-repeat;
+    background-color: #5f5f5f66;
+    background-size: 80px;
+    padding: 0;
+    padding-top: 100px;
+    font-size: 18px;
+    text-align: center;
+    background-position: center 15px;
+    transition: ease-out 0.4s;
+    font-family: ovo2;
+  }
+  .matematica:hover{
+    color: white;
+    box-shadow: inset 0 -160px 0 0 #79cbf1;
+  }
+
+  .humanas{
+    background: url(./imagens/globo.png)no-repeat;
+    background-color: #5f5f5f66;
+    background-size: 80px;
+    padding: 0;
+    padding-top: 100px;
+    font-size: 20px;
+    text-align: center;
+    background-position: center 15px;
+    transition: ease-out 0.4s;
+    font-family: ovo2;
+  }
+  .humanas:hover{
+    color: white;
+    box-shadow: inset 0 -160px 0 0 #833a99;
+  }
+
+  .linguagens{
+    background: url(./imagens/careca.png)no-repeat;
+    background-color: #5f5f5f66;
+    background-size: 80px;
+    padding: 0;
+    padding-top: 100px;
+    font-size: 20px;
+    text-align: center;
+    background-position: center 15px;
+    transition: ease-out 0.4s;
+    font-family: ovo2;
+  }
+  .linguagens:hover{
+    color: white;
+    box-shadow: inset 0 -160px 0 0 #ff8e25;
+  }
+
+  .ti{
+    background: url(./imagens/pc.png)no-repeat;
+    background-color: #5f5f5f66;
+    background-size: 80px;
+    padding: 0;
+    padding-top: 100px;
+    font-size: 20px;
+    text-align: center;
+    background-position: center 15px;
+    transition: ease-out 0.4s;
+    font-family: ovo2;
+  }
+  .ti:hover{
+    color: white;
+    box-shadow: inset 0 -160px 0 0 #ff3b3b;
+  }
+
