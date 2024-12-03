@@ -4,11 +4,18 @@
       src: url('cat.ttf'); }
   
   
-  body{
+ html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  }
+
+body{
     background-image: url(./imagens/fundoo.jpg);
     background-size: cover;
-      background-repeat: no-repeat;
-  }
+    background-repeat: repeat;
+}
   h1{
       text-align: center;
   }
